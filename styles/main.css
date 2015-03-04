@@ -1,0 +1,86 @@
+* {
+  /* font-family: 'Istok Web', sans-serif; */
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.main {
+  background: url(../img/bck.jpg) top left no-repeat;
+  width: 1024px;
+  height: 768px;
+  display: block;
+  margin: 0 auto;
+}
+
+header {
+  padding: 80px 0 4px 0;
+  margin: 0 124px 10px 360px;
+  font: 600 48px 'Open Sans Condensed', sans-serif;
+  height: 149px;
+  box-sizing: border-box;
+  border-bottom: 3px solid #000;
+}
+
+nav {
+  display: inline-block;
+  margin: 56px 34px;
+  width: 178px;
+  height: 268px;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 19px;
+}
+
+nav ul li {
+  margin-top: 18px;
+  padding-left: 31px;
+  height: 24px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #000;
+  font-weight: 800;
+}
+nav ul li a:hover {
+  text-decoration: underline;;
+}
+article.detail-content {
+  display: inline-block;
+  vertical-align: top;
+  width: 456px;
+  height: 500px;
+  box-sizing: border-box;
+  padding: 52px 29px;
+  font: 400 21px helvetica;
+}
+
+.gliph {
+  background: url(../img/icons2.png) 0 0 no-repeat;  
+}
+
+.gliph-lemonade {
+  background-position: 0 4px;
+}
+
+.gliph-lemonade {
+  background-position: 0 4px;  
+}
+.gliph-ourp {
+  background-position: 0 -35px;  
+}
+.gliph-customers {
+  background-position: 0 -74px;  
+}
+.gliph-our-stuff {
+  background-position: 0 -113pxpx;  
+}
+.gliph-our-team {
+  background-position: 0 -35px;  
+}
+.gliph-contact-us {
+  background-position: 0 -192px;  
+}
