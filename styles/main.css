@@ -2,12 +2,8 @@
   /* font-family: 'Istok Web', sans-serif; */
   font-family: 'Open Sans Condensed', sans-serif;
 }
-.main {
-  background: url(../img/bck.jpg) top left no-repeat;
-  width: 1024px;
-  height: 768px;
-  display: block;
-  margin: 0 auto;
+body {
+  background: url(../img/brick.jpg) top left repeat;
 }
 
 header {
@@ -83,4 +79,11 @@ article.detail-content {
 }
 .gliph-contact-us {
   background-position: 0 -192px;  
+}
+.main {
+  background: url(../img/bck.jpg) top left no-repeat;
+  width: 1024px;
+  height: 768px;
+  display: block;
+  margin: 0 auto;
 }
